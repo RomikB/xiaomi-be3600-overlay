@@ -42,3 +42,13 @@ Install package:
 ```bash
 opkg install mc
 ```
+
+Install additional scripts (optional):
+```bash
+curl -O https://raw.githubusercontent.com/romikb/xiaomi-be3600-overlay/main/scripts.tar.gz
+```
+
+Unpack scripts:
+```bash
+tar -xzf scripts.tar.gz
+```
