@@ -1,7 +1,22 @@
 # xiaomi-be3600-overlay
 Scripts for Xiaomi BE3600 router
 
-## Usage
+## Quick Install (One-liner)
+
+Run this command on your router:
+
+```bash
+curl -sSL https://raw.githubusercontent.com/romikb/xiaomi-be3600-overlay/main/install.sh | sh
+```
+
+This will automatically:
+1. Download and extract `overlay.tar.gz` and `scripts.tar.gz` into `/data`
+2. Start the overlay mounts (`overlay_start.sh`)
+3. Update `opkg` and install `mc` and `openssh-sftp-server`
+
+---
+
+## Manual Usage
 
 Change dir to /data:
 ```bash
